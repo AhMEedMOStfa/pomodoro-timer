@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    text-align: center;
+    padding: 2rem;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+div
+{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.btn
+{
+    padding: 2rem 2rem;
+    border: none;
+    border-radius: 16px;
+    background-color: orange;
+    font-size: medium;
+    margin-left: 12px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn:hover
+{
+    background-color: rgba(255, 166, 0, 0.464);
+}
